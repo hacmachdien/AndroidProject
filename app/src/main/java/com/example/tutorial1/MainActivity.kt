@@ -17,6 +17,6 @@ class MainActivity : AppCompatActivity() {
             val sendIntent = Intent(this, MessageWindow::class.java)
             sendIntent.putExtra("user_message", userMessage)
             startActivity(sendIntent)
-    }
+        }
     }
 }
